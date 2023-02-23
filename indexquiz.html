@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--<script src = "https://kit.fontawesome.com/a076d05399.js"></script> -->
+</head>
+<body>
+    <!-- Start Button  -->
+    <div class="start_button"><button>Start Quiz</button></div>
+    
+    <!-- Rules and Button  -->
+    <div class="container">
+        
+        <div class="info_title">Some rules of this quiz</div>        
+        <div class="info_quiz">
+            <div class="info">1. You have 15 seconds per each question.</div>
+            <div class="info">2. Once you select an answer, you can't change it.</div>
+            <div class="info">3. You'll get points if your answer is correct. </div>
+            <div class="info">4. You can't exit from the quiz while you're doing it.</div>
+        </div>
+        <button class="btn_continue">Continue</button>
+        <button class="btn_exitquiz">Exit Quiz</button>
+    </div>
+
+    <!-- Questions  -->
+    <div class="quiz">
+        <div class="top">
+            <div class="time_line"></div>
+
+            <div class="title">Quiz Application</q></div>
+            <div class="time">
+                <div class="time-text">Time left</div>
+                <div class="time-left">15</div>
+            </div>
+        </div>
+        
+        <div class="question">
+           <!--What does HTML stand for?--> 
+        </div>
+        <div class="list">
+            <div class="answer">
+                <span></span>
+            </div>
+            <div class="answer">
+                <span></span>
+            </div>
+            <div class="answer">
+                <span></span>
+            </div>
+            <div class="answer">
+                <span></span>
+            </div>
+        </div>
+        <footer><div class="bottom">
+            <!--<span><p>2</p><p>Of</p><p>5</p><p>Questions</p></span>-->
+
+        </div>
+        <div class="button">Next Question</div>
+    </footer>
+        
+
+
+    </div>   
+    <!-- Results -->
+    <div class="results">
+    
+        <div class="complete_text">You've completed the quiz!</div>
+        <div class="score_text">
+            <!--<span><p>and sorry, You got only got </p>  <p>2</p>  <p> out of </p>  <p>5</p><p> points </p> </span>-->
+        </div>
+        <div class="buttons">
+            <button class="btn_restart">Replay Quiz</button>
+            <button class="btn_quit">Quit Quiz</button>
+
+        </div>
+    </div>
+
+    </div>
+    
+    
+<script src = "quizapp.js" defer ></script>
+<script src = "questions.js" defer ></script> 
+</body>
+</html>
